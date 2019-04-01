@@ -31,31 +31,30 @@ class App extends React.Component {
         error: undefined,
       })
 
-
       switch (this.state.description) {
         
         case "Clear": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/46253/mt-fuji-sea-of-clouds-sunrise-46253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/912110/pexels-photo-912110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         case "Clouds": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         case "Rain": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/166360/pexels-photo-166360.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         case "Snow": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/773594/pexels-photo-773594.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         case "Drizzle": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         case "Thunderstorm": 
-          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
           break;
 
         default: 
@@ -63,10 +62,6 @@ class App extends React.Component {
           break;
       }
   
-
-
-
-
     } else {
       this.setState({
         temperature: undefined,
