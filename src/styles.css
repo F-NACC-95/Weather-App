@@ -15,8 +15,7 @@ html {
 
 .app__container {
     width: 700px;
-    height: 90vh;
-    margin-top: 5vh;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     background: rgba(15, 17, 15, 0.5) ;
@@ -25,7 +24,7 @@ html {
 }
 
 .app__p {
-    margin-top: 2vh;
+    padding-top: 5vh;
     width: 60%;
     margin-right: auto;
     margin-left: auto;

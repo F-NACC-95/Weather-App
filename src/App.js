@@ -31,6 +31,42 @@ class App extends React.Component {
         error: undefined,
       })
 
+
+      switch (this.state.description) {
+        
+        case "Clear": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/46253/mt-fuji-sea-of-clouds-sunrise-46253.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        case "Clouds": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        case "Rain": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        case "Snow": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        case "Drizzle": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        case "Thunderstorm": 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/2046548/pexels-photo-2046548.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+
+        default: 
+          document.body.style.backgroundImage = "url(https://images.pexels.com/photos/258112/pexels-photo-258112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)"
+          break;
+      }
+  
+
+
+
+
     } else {
       this.setState({
         temperature: undefined,
