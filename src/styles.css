@@ -72,16 +72,28 @@ html {
 
 /* Media */
 
-@media only screen and (max-width: 710px) {
+@media only screen and (max-width: 710px ), (max-height: 600px) {
+    .app__p {
+        font-size: 0.6rem;
+    }
+
     .app__container {
         width: 100vw;
         height: 100vh;
         margin-top: 0vh;
     }
 
+    .form__button {
+        margin-top: 20px;
+    }
+
     .weather__temperature {
-        font-size: 3rem;
-        line-height: 16rem; 
+        font-size: 1.2rem;
+        line-height: 6rem; 
+    }
+
+    .weather__location {
+        margin-top: 2rem;
     }
 
     .app__p {
