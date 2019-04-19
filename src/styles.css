@@ -38,14 +38,21 @@ html {
     margin-top: 40px;
 }
 
-.form__button {
-    margin-top: 130px;
-    text-align: center;
-    margin: auto;
+.form__component input {
+    margin-bottom: 2rem;
 }
 
+.form__button {
+    font-size: 20px; 
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+    width: 150px;
+    background-color: rgb(32, 102, 160);
+    color: white;
+}
+  
 .form__button:hover {
-    color: red;
+    background-color: rgb(101, 173, 231);
 }
 
 /* Weather.js */
