@@ -31,6 +31,8 @@ class App extends React.Component {
         error: undefined,
       })
 
+      document.body.style.backgroundSize = "cover";
+
       switch (this.state.description) {
         
         case "Clear": 
