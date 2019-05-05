@@ -15,7 +15,7 @@ html {
 
 .app__container {
     width: 700px;
-    height: 100%;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
     background: rgba(15, 17, 15, 0.5) ;
@@ -65,8 +65,8 @@ html {
 }
 
 .weather__temperature {
-    font-size: 4rem;
-    line-height: 16rem; 
+    font-size: 3rem;
+    line-height: 12rem; 
 }
 
 .weather__location {
